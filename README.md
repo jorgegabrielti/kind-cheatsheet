@@ -5,10 +5,10 @@
 
 About
 ==========
-This repository is dedicated to Kubernetes projects using Kind..
+This repository is dedicated to Kubernetes projects using Kind.
 
 [![Badge](https://img.shields.io/badge/Requirements-Docker-blue)](https://docs.docker.com/engine/install)
-[![Badge](https://img.shields.io/badge/Requirements-kubectl-blue)](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+[![Badge](https://img.shields.io/badge/Requirements-Kubectl-blue)](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 
 
 [//]: # "[![Badge]()]()"
