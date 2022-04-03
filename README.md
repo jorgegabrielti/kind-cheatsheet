@@ -61,8 +61,13 @@ kind create cluster --name <CLUSTER NAME>
 kind create cluster --name kind-cluster
 ```
 
-By default, Kubernetes saves context settings in the **${HOME}/.kube/kubeconfig** file. To set a different location:
-```bash
+By default, Kubernetes saves context settings in the <span style="color:red">${HOME}/.kube/config</span> file. To set a different location:
 
+```bash
+CLUSTER_NAME="cluster-poc"
+export KUBECONFIG="~/.kube/${CLUSTER_NAME}"
 ```
-<font color=\"red\">Texto com cor vermelha</font>
+
+```bash
+kind create cluster --name ${CLUSTER_NAME} --kubeconfig ${KUBECONFIG}
+```
