@@ -49,3 +49,14 @@ sudo mv ./kind /usr/bin/kind
 ```bash
 kind --version
 ```
+
+## Create a cluster (Basic)
+**Syntax:**
+```bash
+kind create cluster --name <CLUSTER NAME>
+```
+
+**Sample**:
+```bash
+kind create cluster --name kind-cluster
+```
